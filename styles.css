@@ -1,0 +1,103 @@
+/* flex */
+
+
+/* header*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* one */
+.one {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.HEADER {
+    padding: 8px 100px 100px 100px;
+}
+
+.img {
+    flex-shrink: 0;
+}
+
+
+/* two */
+h2,
+.box-text {
+    text-align: center;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 200px 200px 200px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+}
+
+.box-n-text {
+    max-width: 150px;
+}
+
+
+/* three */
+.quote {
+    padding: 100px 200px;
+}
+
+
+/* four */
+.blue {
+    display: flex;
+}
+
+
+.four {
+    width: 600px;
+    height: 80px;
+    background: blue;  
+    margin: auto;
+}
+
+
+/* footer */
+.footer-text {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* style */
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

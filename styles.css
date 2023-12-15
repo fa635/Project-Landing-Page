@@ -1,3 +1,7 @@
+html {
+    font-family: Roboto;
+}
+
 /* flex */
 
 
@@ -69,7 +73,7 @@ h2,
 .four {
     width: 600px;
     height: 80px;
-    background: blue;  
+    background: #3882f6;  
     margin: auto;
 }
 
@@ -100,4 +104,47 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.HEADER,
+.footer {
+    background: #1f2937;
+}
+
+.quote {
+    background: #e5e7eb;
+}
+
+.quote .q {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800px;
+    color: #f9faf8;
+}
+
+.left p,
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button {
+    color: #3882f6;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
